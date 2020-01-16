@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'sdk_ios_v2'
-s.version          = '2.1.0'
+s.version          = '2.1.1'
 s.summary          = 'SDK Iios spec for make payments to Decidir v2.1'
 
 # This description is used to generate tags and improve search results.
@@ -34,4 +34,6 @@ s.library = 'z'
 s.ios.vendored_frameworks = 'TrustDefender.framework'
 s.source_files = 'sdk_ios_v2/**/*'
 s.dependency 'Alamofire', '~> 4.7'
+s.exclude_files = 'sdk_ios_v2/**/Info.plist'
+s.swift_version = '4.2'
 end
