@@ -31,7 +31,7 @@ s.source           = { :git => 'https://github.com/decidir/SDK-IOS.v2.git', :tag
 
 s.ios.deployment_target = '9.0'
 s.library = 'z'
-s.ios.vendored_frameworks = 'TrustDefender.framework'
+s.ios.vendored_frameworks = 'Frameworks/TrustDefender.framework'
 s.source_files = 'sdk_ios_v2/**/*'
 s.dependency 'Alamofire', '~> 4.7'
 s.exclude_files = 'sdk_ios_v2/**/Info.plist'
